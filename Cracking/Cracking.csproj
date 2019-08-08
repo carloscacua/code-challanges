@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ArrayAndString\" />
+    <Folder Include="Graph\" />
+    <Folder Include="DemoTest1\" />
+    <Folder Include="DemoTest2\" />
+    <Folder Include="DemoTest3\" />
+    <Folder Include="Sort\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DemoTest2\First.cs" />
+  </ItemGroup>
+</Project>
