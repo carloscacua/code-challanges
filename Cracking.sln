@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cracking", "Cracking\Cracking.csproj", "{27E4F086-36CC-49F8-A7DC-21E068B1560C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interviewbit", "interviewbit\interviewbit.csproj", "{9404418E-D97B-4FCD-9C55-1587FF2F81B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interviewbit", "interviewbit\interviewbit.csproj", "{9404418E-D97B-4FCD-9C55-1587FF2F81B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerrank", "hackerrank\hackerrank.csproj", "{BFC9B5EB-FD27-4BBE-A82D-9330DB9D3816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +21,9 @@ Global
 		{9404418E-D97B-4FCD-9C55-1587FF2F81B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9404418E-D97B-4FCD-9C55-1587FF2F81B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9404418E-D97B-4FCD-9C55-1587FF2F81B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC9B5EB-FD27-4BBE-A82D-9330DB9D3816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC9B5EB-FD27-4BBE-A82D-9330DB9D3816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC9B5EB-FD27-4BBE-A82D-9330DB9D3816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC9B5EB-FD27-4BBE-A82D-9330DB9D3816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
