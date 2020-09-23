@@ -6,7 +6,7 @@ namespace hackerrank
     {
         public static void Main(string[] args)
         {
-            Algorithms.AppendandDelete.run();
+            Console.WriteLine(Algorithms.AppendandDelete.countOfAnagramSubstring("abba"));
         }
     }
 }

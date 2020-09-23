@@ -11,15 +11,19 @@ namespace Cracking.Graph
 
             var queue = new Queue<Graph<T>>();
 
+            nodo.Visited = true;
             queue.Enqueue(nodo);
 
             while (queue.Count == 0) 
             {
                 var elem = queue.Dequeue();
-                elem.Visited = true;
                 foreach(var child in elem.Children) 
                 {
-                    queue.Enqueue(child);
+                    if (!child.Visited)
+                    {
+                        child.Visited = true;
+                        queue.Enqueue(child);
+                    }   
                 }
 
 
