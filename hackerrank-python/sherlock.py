@@ -1,17 +1,9 @@
+from collections import Counter
+
 def isValid(s):
     r = True
-    d = {}
-    for i in s:
-        if i in d:
-            d[i] += 1
-        else:
-            d[i] = 1
-    c = {}
-    for l, r in d.items():
-        if r in c:
-            c[r] += 1
-        else:
-            c[r] = 1
+    d = Counter(s)
+    c = Counter(d)
     if len(c) > 2:
         r = False
     elif len(c) <= 1:
