@@ -3,7 +3,12 @@ from collections import Counter
 def isValid(s):
     r = True
     d = Counter(s)
-    c = Counter(d)
+    c = {}
+    for l, r in d.items():
+        if r in c:
+            c[r] += 1
+        else:
+            c[r] = 1
     if len(c) > 2:
         r = False
     elif len(c) <= 1:
