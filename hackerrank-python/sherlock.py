@@ -169,4 +169,35 @@ if __name__ == '__main__':
 
     fptr.close()
 
+
+w = input()
+rw = w[::-1]
+if w == rw:
+    return True
+return False
+
+
 """
+1,2,3,
+
+def find(x,uf):
+     if uf[x] == x:
+        return x
+     else:
+        uf[x] = find(uf[x], uf)
+        return uf[x]
+
+def union(x ,y, uf):
+    uf[find(x, uf)] = find(y, uf)
+
+def kruskals(g_nodes, g_from, g_to, g_weight):
+    uf = list(range(g_nodes+1))
+    sum = 0
+    sorted_e = sorted(zip(g_weight, g_from, g_to))
+    for w, u ,v in sorted_e:
+        if find(u, uf) == find(v, uf):
+            continue
+        union(u, v, uf)
+        sum += w
+    return sum
+
